@@ -10,12 +10,12 @@ supported by the proprietary client: Smartphones, tablets, browsers, ARM noteboo
 
 ### Dependencies
 
-* Python 2.7
+* [Python 2.7](https://www.python.org/)
 * [PyCrypto](https://www.dlitz.net/software/pycrypto/)
 
 ### Usage
 
-Produce a file with PJL data for your print job. For example with (Ghostscript)[http://www.ghostscript.com]:
+Produce a file with PJL data for your print job. For example with [Ghostscript](http://www.ghostscript.com):
 
     gs -sDEVICE=pxlmono -o job.pjl -f document.pdf
 
